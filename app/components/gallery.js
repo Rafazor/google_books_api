@@ -14,16 +14,14 @@ class Gallery extends Component {
                             className="book"
                             href={infoLink}
                             target='_blank'>
-                                <img src={imageLinks !== undefined? imageLinks.thumbnail : noPhoto} 
+                                <img src={imageLinks !== undefined ? imageLinks.thumbnail : noPhoto} 
                                 alt="book photo"
                                 className="book-img"/>
                                 <div className="book-text">
                                     {title}
                                 </div>
                             </a>
-                        )
-                    }  
-                    )
+                        )})
                 }
             </div>
         )
